@@ -60,6 +60,16 @@ Cada syscall possui um **número único**.
 
 📌 Lista oficial no sistema: /usr/include/asm/unistd_64.h
 
+Pode usar como referência: [syscall table](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
+
+Tabem pode ajudar: 
+
+| Arquitetura | Link |
+|------|------|
+| `arm` | [Syscall table arm 32](https://github.com/LucSpk/syscall_table_arm_32) |
+| `arm64` | [Syscall table arm 64](https://github.com/LucSpk/syscall_table_arm_64) |
+| `x86` | [Syscall table x86](https://github.com/LucSpk/syscall_table_x86) |
+| `x86_64` | [Syscall table x86-64](https://github.com/LucSpk/syscall_table_x86_64) |
 
 ---
 
@@ -121,7 +131,7 @@ Flags comuns do `open`
 | `O_TRUNC`  | `0x200` | Zera o arquivo    |
 | `O_APPEND` | `0x400` | Escrita no final  |
 
-
+Materia auxiliar: [Flags comuns em syscalls Linux](https://github.com/LucSpk/Referencia_syscall_linux_x86-64)<br>
 As flags podem ser combinadas com OR (|).
 
 ---
